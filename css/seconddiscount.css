@@ -1,0 +1,33 @@
+div.mainseconddiscount{
+    width: 95%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+div.mainseconddiscount>div.firstimagediscount{
+    width: 50%;
+    height: 100%;
+}
+
+div.mainseconddiscount>div.firstimagediscount>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+div.mainseconddiscount>div.secondimagediscount{
+    width: 50%;
+    height: 100%;
+}
+
+div.mainseconddiscount>div.secondimagediscount>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

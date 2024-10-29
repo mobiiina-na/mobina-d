@@ -1,0 +1,100 @@
+div.mainclassification{
+    width: 100%;
+    height: 430px;
+}
+
+div.mainclassification>div.maintitle{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+div.mainclassification>div.maintitle>h3{
+    font-family: iranYekan;
+    font-size: 20px;
+}
+
+div.mainclassification>div.firstclassification{
+    width: 100%;
+    height: 175px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    padding: 0px 90px;
+    box-sizing: border-box;
+}
+
+div.mainclassification>div.firstclassification>.imageclassification{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+div.mainclassification>div.firstclassification>.imageclassification>img{
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+}
+
+div.mainclassification>div.firstclassification>.imageclassification>div.title{
+    width: fit-content;
+}
+
+div.mainclassification>div.firstclassification>.imageclassification>div.title>span{
+    font-family: iranYekan;
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+div.mainclassification>div.secondclassification{
+    width: 100%;
+    height: 175px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    padding: 0px 90px;
+    box-sizing: border-box;
+}
+
+div.mainclassification>div.secondclassification>.imageclassification{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+div.mainclassification>div.secondclassification>.imageclassification>img{
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+}
+
+div.mainclassification>div.secondclassification>.imageclassification>div.title{
+    width: fit-content;
+}
+
+div.mainclassification>div.secondclassification>.imageclassification>div.title>span{
+    font-family: iranYekan;
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+}
+
+

@@ -1,0 +1,25 @@
+div.secondsupermarket{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    padding: 0px 25px;
+    box-sizing: border-box;
+}
+
+div.secondsupermarket>div.image{
+    width: 24%;
+    height: 90%;
+}
+
+div.secondsupermarket>div.image>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+

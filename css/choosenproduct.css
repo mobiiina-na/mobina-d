@@ -1,0 +1,111 @@
+div.mainchoosenproduct{
+    width: 95%;
+    height: 850px;
+    margin: auto;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+}
+
+div.mainchoosenproduct>.titlechoosen{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+div.mainchoosenproduct>.titlechoosen>span{
+    font-size: 20px;
+    font-family: iranyekan;
+}
+
+div.mainchoosenproduct>div.firstline{
+    width: 100%;
+    height: 240px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+div.mainchoosenproduct>div.firstline>div.productchoosen{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: center;
+}
+
+div.mainchoosenproduct>div.firstline>div.productchoosen>div.imageproduct{
+    width: 90%;
+    height: 70%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+div.mainchoosenproduct>div.firstline>div.productchoosen>div.imageproduct>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+div.mainchoosenproduct>div.firstline>div.productchoosen>div.price{
+    width: 90%;
+    height: 40px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+div.mainchoosenproduct>div.firstline>div.productchoosen>div.price>div.pricepro{
+    width: 50px;
+    height: 20px;
+    background-color: red;
+    border-radius: 30px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+div.mainchoosenproduct>div.firstline>div.productchoosen>div.price>div.pricepro>p{
+    font-size: 13px;
+   font-family: iranyekan;
+   font-weight: bold;
+}
+
+div.mainchoosenproduct>div.firstline>div.productchoosen>div.price>.discountpro{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: end;
+    align-items: center;
+}
+
+div.mainchoosenproduct>div.firstline>div.productchoosen>div.price>.discountpro>span{
+   font-size: 13px;
+   font-family: iranyekan;
+}
+
+div.mainchoosenproduct>div.firstline>div.productchoosen>.discount{
+    width: 80%;
+    height: 30px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: end;
+    align-items: center;
+}
+
+div.mainchoosenproduct>div.firstline>div.productchoosen>.discount>span{
+    font-size: 11px;
+    font-family: iranyekan;
+    text-decoration: line-through;
+}
+

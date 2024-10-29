@@ -1,0 +1,78 @@
+div.secondstory{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+div.secondstory>div.story2{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+ 
+div.secondstory>div.story2>div.image{
+    width: 70%;
+    height: fit-content;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+div.secondstory>div.story2>div.image>img{
+    width: 75%;
+    height: 75%;
+    object-fit: contain;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:center;
+    align-items: center;
+}
+
+div.secondstory>div.story2>div.title{
+    width: fit-content;
+    height: fit-content;
+    font-size: 13px;
+    font-family: iranYekan;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

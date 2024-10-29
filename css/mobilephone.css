@@ -1,0 +1,103 @@
+div.mainmobilephone{
+    width: 95%;
+    height: 420px;
+    margin: auto;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+div.mainmobilephone>div.mobilephone{
+    width: 25%;
+    height: 90%;   
+}
+
+div.mainmobilephone>div.mobilephone>div.mobiletitle{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+div.mainmobilephone>div.mobilephone>div.mobiletitle>span{
+    width: fit-content;
+    height: fit-content;
+    font-family: iranyekan;
+    font-size: 16px;
+
+}
+
+div.mainmobilephone>div.mobilephone>div.mobiletitle>p{
+    width: fit-content;
+    height: fit-content;
+    font-family: iranyekan;
+    font-size: 12px;
+    color: gray;
+}
+
+div.mainmobilephone>div.mobilephone>div.imagephone{
+    width: 90%;
+    height: 140px;
+    margin: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+div.mainmobilephone>div.mobilephone>div.imagephone>div.first{
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+div.mainmobilephone>div.mobilephone>div.imagephone>div.first>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+div.mainmobilephone>div.mobilephone>div.imagephone>div.second{
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+div.mainmobilephone>div.mobilephone>div.imagephone>div.second>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+ 
+div.mainmobilephone>div.mobilephone>div.see{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+div.mainmobilephone>div.mobilephone>div.see>a{
+    font-family: iranyekan;
+    font-size: 13px;
+    color: rgb(81, 174, 210);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.border{
+    border-left: 1px solid rgb(230, 230, 230);
+}
